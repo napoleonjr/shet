@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 "# adik" 
 "# adik" 
 "# kogs" 
+"# kogs" 
