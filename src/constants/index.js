@@ -3,7 +3,10 @@ import project2 from "../assets/projects/project-2.jpg";
 
 
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications.  I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am an IT student. I have a
+        strong foundation in UI design, front-end & back-end development and am skilled in
+        creating user-friendly and responsive web applications using React and
+        its ecosystem.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Figma, Next.js, Node.js, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -11,11 +14,11 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const PROJECTS = [
   {
-    title: "Shopify",
+    title: "Rentria",
     image: project1,
     link: "https://www.figma.com/design/hxatveukieD8ggbf0r9Xv3/Untitled?node-id=9-4&node-type=frame&t=DpSz7Kdoe9KFLHGl-0",
     description:
-      "The Shopify Figma design showcases a clean and modern e-commerce interface, featuring a prominent hero section and intuitive navigation for easy product discovery. It includes detailed product pages with zoom functionality, user reviews, and a streamlined cart and checkout process for a seamless shopping experience.",
+    "A renting app designed in Figma could include a seamless and user-friendly interface that helps users find, list, and manage rental properties.",
     technologies: ["Figma"],
   },
   {
@@ -30,7 +33,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Delgado St, Villa Anita ",
+  address: "Poblacion, Jordan Guimaras ",
   phoneNo: "094936196969 ",
-  email: "ajaybautista60@gmail.com",
+  email: "tadurannapoleonvicentejr@gmail.com",
 };

@@ -7,4 +7,31 @@
 
 :root{
   font-family: "Inter", sans-serif;
+  
 }
+html {
+  scroll-behavior: smooth;
+}
+@keyframes moveAroundWithPause {
+  0%, 10% {
+    transform: translate(0, 0); /* Start position */
+  }
+  15%, 25% {
+    transform: translate(calc(100vw - 200px), 0); /* Move to the right and pause */
+  }
+  30%, 40% {
+    transform: translate(calc(100vw - 200px), calc(100vh - 100px)); /* Move down and pause */
+  }
+  45%, 55% {
+    transform: translate(0, calc(100vh - 100px)); /* Move to the left and pause */
+  }
+  60%, 100% {
+    transform: translate(0, 0); /* Return to the starting point */
+  }
+}
+
+.infinite-move {
+  position: relative; /* Allows for translation */
+  animation: moveAroundWithPause 30s linear infinite; /* Total duration */
+}
+
