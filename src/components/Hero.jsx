@@ -13,7 +13,7 @@ const Hero = () => {
               transition={{ duration: 1.5 }}
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16"
             >
-              Napoleon Taduran Jr.
+              Ajan Bautista
             </motion.h1>
             <motion.span
               whileInView={{ opacity: 1, x: 0 }}
