@@ -16,7 +16,7 @@ const Contact = () => {
      className="text-center tracking-tighter">
         <p className="my-4">{CONTACT.address}</p>
         <p className="">{CONTACT.phoneNo}</p>
-        <a href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act&gar=WzEyMF0&pli=1&nlr=1" className="border-b">
+        <a href="https://mail.google.com/mail/u/0/#inbox" className="border-b">
             {CONTACT.email}
         </a>
      </motion.div>
