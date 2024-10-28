@@ -3,10 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 
 
 
-export const HERO_CONTENT = `I am an IT student. I have a
-        strong foundation in UI design, front-end & back-end development and am skilled in
-        creating user-friendly and responsive web applications using React and
-        its ecosystem.`;
+export const HERO_CONTENT = `I am not so good at full stack developer but im trying so hard. With 3 years only of experience, I still have to honed my skills in front-end technologies like React and Next.js, aswell as my back-end technologies like Node.js, MySQL, and MongoDB. My goal is to be a better or expertise I have a long way to go. Im eager to grow and experience`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Figma, Next.js, Node.js, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
